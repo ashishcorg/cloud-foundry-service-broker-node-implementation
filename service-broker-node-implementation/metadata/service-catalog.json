@@ -1,0 +1,30 @@
+{
+  "services": [{
+    "name": "api-m",
+    "id": "d1be4512-1a53-4d49-b3a1-69f77f5a8028",
+    "description": "Expose your data and processes as APIs for omni-channel consumption and manage the lifecycle of those APIs.",
+    "tags": ["API", "Management"],
+    "requires": ["route_forwarding"],
+    "bindable": true,
+    "metadata": {
+      "provider": {"name": "SAP"},
+      "displayName": "API Management Service Broker",
+      "imageUrl": "data:image/svg+xml;base64,PHN2ZyBpZD0iYXBpLW1hbmFnZW1lbnQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDU2IDU2Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6IzVhN2E5NDt9LmNscy0ye2ZpbGw6IzAwOTJkMTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFwaS1tYW5hZ2VtZW50PC90aXRsZT48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zMS44NzgsMzEuMzY4YTE0LjI5LDE0LjI5LDAsMCwxLTIuNjE4LTEuNUwyMy40NTEsMzcuNTVhNy42NCw3LjY0LDAsMCwwLTIuOTA1LS41NjIsNy41LDcuNSwwLDEsMCw3LjUsNy41LDcuMDYyLDcuMDYyLDAsMCwwLTIuMTU1LTUuMjQ4Wk0yMC41NDYsNDguOTg0YTQuNSw0LjUsMCwxLDEsNC41LTQuNUE0LjQ0MSw0LjQ0MSwwLDAsMSwyMC41NDYsNDguOTg0WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE4Ljk5NSwyNi42OGMwLS4yODEsMC0uNTYyLS4wOTQtLjY1Nmw2LTEuMjE4LS4wMzQtLjA4N2MtLjQtLjgtLjY4NC0yLjA0NC0xLTIuODVsLS4wODkuMDMyLTUuNzE3LDEuMjE4YTcuNCw3LjQsMCwwLDAtNi41Ni00LjAzQTcuNTQsNy41NCwwLDAsMCw0LDI2LjY4YTcuNDM5LDcuNDM5LDAsMCwwLDcuNSw3LjRBNy40MzksNy40MzksMCwwLDAsMTguOTk1LDI2LjY4Wm0tNy41LDQuNEE0LjM2Myw0LjM2MywwLDAsMSw3LDI2LjY4YTQuNSw0LjUsMCwxLDEsOSwwQTQuMzYzLDQuMzYzLDAsMCwxLDExLjUsMzEuMDg0WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQ0Ljk1NCwzNi45ODhoLS45MzhMNDIuNjExLDMxLjc0YTE0LjMzNCwxNC4zMzQsMCwwLDEtMi45Mi43NTVsMS40Miw1LjMzN2E3LjQ3NCw3LjQ3NCwwLDAsMCwyLjksMTQuMTUxLDcuNTEyLDcuNTEyLDAsMCwwLC45MzgtMTQuOTk1Wm00LjAzLDcuNzc5YTQuNTY3LDQuNTY3LDAsMCwxLTQuNzgsNC4yMTcsNC41MDcsNC41MDcsMCwxLDEsNC43OC00LjIxN1oiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0zMS44MzQsMzEuMzY1YTE0LjE3OCwxNC4xNzgsMCwwLDAsNS44MSwxLjMxMiwxNC4wNTQsMTQuMDU0LDAsMCwwLDIuMDYyLS4xODh2MGExNC4zMjIsMTQuMzIyLDAsMSwwLTE2LjQtMTQuMTUzLDE2LjE3MywxNi4xNzMsMCwwLDAsLjQ2OSwzLjU2MWwuMTA4LjQ0NGExMi45MzYsMTIuOTM2LDAsMCwwLC45ODMsMi4zNzRsLjAzNC4wODdhMTQuMTMxLDE0LjEzMSwwLDAsMCw0LjMxMSw1LjA2MWgwQTE0LjMzOSwxNC4zMzksMCwwLDAsMzEuODM0LDMxLjM2NVptMy02Ljg0MWg1LjcxN2ExMS42NjYsMTEuNjY2LDAsMCwxLTIuOTA1LDQuNEExMS4xNDgsMTEuMTQ4LDAsMCwxLDM0LjgzMywyNC41MjRabS0uNzUtMi45YTEyLjU4MSwxMi41ODEsMCwwLDEtLjM3NS0zLjI4LDE0LjUzNSwxNC41MzUsMCwwLDEsLjI4MS0yLjkwNWg3LjRjLjA5NCwxLjAzMS4xODcsMS44NzQuMTg3LDIuOTA1YTE3LjgxNSwxNy44MTUsMCwwLDEtLjI4MSwzLjI4Wm01LjUzLDcuOTY2YTE0LjczNiwxNC43MzYsMCwwLDAsMi44MTEtNS4wNjFINDcuM0ExMS44OTMsMTEuODkzLDAsMCwxLDM5LjYxMiwyOS41ODRaTTQ4LjcsMTUuNDMzYTkuMTEsOS4xMSwwLDAsMSwuMzc1LDIuOTA1LDEzLjg0MywxMy44NDMsMCwwLDEtLjQ2OCwzLjI4SDQzLjA4YTE3LjgxNSwxNy44MTUsMCwwLDAsLjI4MS0zLjI4YzAtMS4wMzEtLjA5NC0xLjg3NC0uMTg3LTIuOTA1Wm0tMS4yMTgtMi44MTFINDIuNTE3YTEyLjYsMTIuNiwwLDAsMC0zLTUuNTNBMTEuNjgyLDExLjY4MiwwLDAsMSw0Ny40ODQsMTIuNjIyWm0tNi44NDEsMGgtNS45YTEyLjQ2MywxMi40NjMsMCwwLDEsMi45MDUtNC45NjdBMTEuNDA2LDExLjQwNiwwLDAsMSw0MC42NDMsMTIuNjIyWk0zNS43Nyw3LjA5MmExNi4xLDE2LjEsMCwwLDAtMyw1LjUzSDI3LjhBMTEuODg5LDExLjg4OSwwLDAsMSwzNS43Nyw3LjA5MlptLTksMTQuNTI2YTkuMjc1LDkuMjc1LDAsMCwxLS41NjItMy4yOCwxMC4zMTEsMTAuMzExLDAsMCwxLC4zNzUtMi45MDVoNS42MjNhMTQuNTM1LDE0LjUzNSwwLDAsMC0uMjgxLDIuOTA1LDE3LjgxNSwxNy44MTUsMCwwLDAsLjI4MSwzLjI4Wm0xLjMxMiwyLjloNC43OGExNi40NjMsMTYuNDYzLDAsMCwwLDIuODEyLDUuMDYxQTExLjcsMTEuNywwLDAsMSwyOC4wODUsMjQuNTI0WiIvPjwvc3ZnPg==",
+      "longDescription": "Drives innovation in modern business models. Based on APIs and digital assets, this solution facilitates unified access from new channels and diverse user interfaces by enabling developer communities to connect to your enterprise information and processes securely. Access to back-end services and complex landscapes are simplified with easy to consume APIs while protecting your systems from threats and overloaded access.",
+      "providerDisplayName": "SAP",
+      "documentationUrl": "https://help.hana.ondemand.com/apim_od/frameset.htm",
+      "supportUrl": "https://www.sap.com/india/products/api-management.html#support"
+    },
+    "plan_updateable": true,
+    "plans": [{
+      "name": "preview",
+      "id": "989ba473-649b-45c9-b276-245809592e83",
+      "description": "API management preview plan"
+    },
+    {
+      "name": "lite",
+      "id": "8e72f41a-e77f-4cd5-9973-98e3143adf4a",
+      "description": "API management lite plan"
+    }]
+  }]
+}

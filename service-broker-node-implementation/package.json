@@ -1,0 +1,15 @@
+{
+  "name": "service-broker-node-implementation",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.13.4",
+    "body-parser": "1.18.1",
+    "express-basic-auth": "~1.1.2",
+    "express-validation": "~1.0.2",
+    "joi": "~10.6.0"
+  }
+}

@@ -53,7 +53,7 @@ router.put('/service_instances/:instance_id/service_bindings/:binding_id',valida
 /**
  * end point for service instance unbinding
  */
-delete.put('/service_instances/:instance_id/service_bindings/:binding_id',validate(validator.deleteRequestValidator), function(req,res){
+router.delete('/service_instances/:instance_id/service_bindings/:binding_id',validate(validator.deleteRequestValidator), function(req,res){
 	res.status(200).end();
 });
 module.exports = router;

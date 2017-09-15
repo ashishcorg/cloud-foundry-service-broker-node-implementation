@@ -56,4 +56,11 @@ router.put('/service_instances/:instance_id/service_bindings/:binding_id',valida
 router.delete('/service_instances/:instance_id/service_bindings/:binding_id',validate(validator.deleteRequestValidator), function(req,res){
 	res.status(200).end();
 });
+
+/**
+ * end point for operation status polling
+ */
+router.get('/service_instances/:instance_id/last_operation', function(req,res){
+	res.status(200).end();
+});
 module.exports = router;
